@@ -8,16 +8,16 @@ public class Main {
         Scanner height = new Scanner(System.in);
         Scanner spaceForNotWater = new Scanner(System.in);
 
-        int a = Integer.parseInt(width.nextLine());
-        int b = Integer.parseInt(length.nextLine());
-        int c = Integer.parseInt(height.nextLine());
+        int aBase = Integer.parseInt(width.nextLine());
+        int bBase = Integer.parseInt(length.nextLine());
+        int cHeight = Integer.parseInt(height.nextLine());
         double percentage = Double.parseDouble(spaceForNotWater.nextLine());
 
-        int waterVolume = (a * b) * c;
+        double waterVolume = (aBase * bBase * cHeight) * .001;
 
-        double availableSpaceForWater = (waterVolume - (waterVolume * (percentage / 100))) / 1000;
+        double neededWater = waterVolume * (1 - percentage/100);
 
-        System.out.println(availableSpaceForWater);
+        System.out.println(neededWater);
 
     }
 }
