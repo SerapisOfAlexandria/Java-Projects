@@ -6,45 +6,39 @@ public class OnTime {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int examHour = Integer.parseInt(input.nextLine());
-        int examMinute = Integer.parseInt(input.nextLine());
-        int arrivalHour = Integer.parseInt(input.nextLine());
-        int arrivalMinute = Integer.parseInt(input.nextLine());
+        int examHour = Integer.parseInt(input.next());
+        int examMinute = Integer.parseInt(input.next());
+        int arrivalHour = Integer.parseInt(input.next());
+        int arrivalMinute = Integer.parseInt(input.next());
 
-        int x = (examHour * 60) + examMinute;
-        int y = (arrivalHour * 60) + arrivalMinute;
+        int totalExamMinutes = 60 * examHour + examMinute;
+        int totalArrivalMinutes = 60 * arrivalHour + arrivalMinute;
 
-        if (x < y) {
+        int diffMinutes = Math.abs(totalExamMinutes - totalArrivalMinutes);
+
+        if (totalExamMinutes < totalArrivalMinutes) {
             System.out.println("Late");
-            if (y > x + 60) {
-                int lateShowUp = y - x;
-                int lateShowUpHours = lateShowUp / 60;
-                int lateShowUpMinutes = lateShowUp % 60;
-                System.out.printf("%d:%02d hours after the start", lateShowUpHours, lateShowUpMinutes);
+            if (diffMinutes < 60) {
+                System.out.printf("%d minutes after the start", diffMinutes);
             } else {
-                int lateShowUp = y - x;
-                System.out.printf("%d minutes after the start", lateShowUp);
+                int hour = diffMinutes / 60;
+                int minutes = diffMinutes % 60;
+                System.out.printf("%d:%02d hours after the start", hour, minutes);
             }
-        } else if (x == y) {
-            System.out.printf("On Time");
-            System.out.println("");
-        } else if (y >= x - 30) {
+        } else if (diffMinutes <= 30) {
             System.out.println("On Time");
-            int earlyShowUp = x - y;
-            System.out.printf("%d minutes before the start", earlyShowUp);
+            if (diffMinutes != 0) {
+                System.out.printf("%d minutes before the start", diffMinutes);
+            }
         } else {
             System.out.println("Early");
-            if (y > x - 60) {
-                int earlyShowUp = x - y;
-                System.out.printf("%d minutes before the start", earlyShowUp);
+            if (diffMinutes < 60) {
+                System.out.printf("%d minutes before the start", diffMinutes);
             } else {
-                int earlyShowUp = x - y;
-                int earlyShowUpHours = earlyShowUp / 60;
-                int earlyShowUpMinutes = earlyShowUp % 60;
-                System.out.printf("%d:%02d hours before the start", earlyShowUpHours, earlyShowUpMinutes);
+                int hour = diffMinutes / 60;
+                int minutes = diffMinutes % 60;
+                System.out.printf("%d:%02d hours before the start", hour, minutes);
             }
-
         }
-
-        }
+    }
 }
