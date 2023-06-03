@@ -12,38 +12,39 @@ public class NewHouse {
         double flowersPrice = 0;
 
         if (flowers.equals("Roses")) {
-            flowersPrice = 5;
+            flowersPrice = flowerQuantity *  5;
+            if (flowerQuantity > 80) {
+                flowersPrice = flowersPrice * .9;
+            }
         } else if (flowers.equals("Dahlias")) {
-            flowersPrice = 3.8;
+            flowersPrice = flowerQuantity *  3.8;
+            if (flowerQuantity > 90) {
+                flowersPrice = flowersPrice * .85;
+            }
         } else if (flowers.equals("Tulips")) {
-            flowersPrice = 2.8;
+            flowersPrice = flowerQuantity *  2.8;
+            if (flowerQuantity > 80) {
+                flowersPrice = flowersPrice * .85;
+            }
         } else if (flowers.equals("Narcissus")) {
-            flowersPrice = 3;
+            flowersPrice = flowerQuantity *  3;
+            if (flowerQuantity < 120) {
+                flowersPrice = flowersPrice * 1.15;
+            }
         } else if (flowers.equals("Gladiolus")) {
-            flowersPrice = 2.5;
+            flowersPrice = flowerQuantity *  2.5;
+            if (flowerQuantity < 80) {
+                flowersPrice = flowersPrice * 1.20;
+            }
         }
 
-        double totalPrice = flowerQuantity * flowersPrice;
+        double differenceInBudget = budget - flowersPrice;
 
-        if (flowerQuantity > 80 && flowers.equals("Roses")) {
-            totalPrice = totalPrice - (totalPrice * .1);
-        } else if (flowerQuantity > 90 && flowers.equals("Dahlias")) {
-            totalPrice = totalPrice - (totalPrice * .15);
-        } else if (flowerQuantity > 80 && flowers.equals("Tulips")) {
-             totalPrice = totalPrice - (totalPrice *.15);
-        } else if (flowerQuantity < 120 && flowers.equals("Narcissus")) {
-            totalPrice = totalPrice + (totalPrice *.15);
-        } else if (flowerQuantity < 80 && flowers.equals("Gladiolus")) {
-            totalPrice = totalPrice + (totalPrice *.2);
+        if (differenceInBudget >= 0) {
+            System.out.printf("Hey, you have a great garden with %d %s and %.2f leva left.",flowerQuantity,flowers,differenceInBudget);
         }
-
-        double ad = budget - totalPrice;
-
-        if (ad >= 0) {
-            System.out.printf("Hey, you have a great garden with %d %s and %.2f leva left.",flowerQuantity,flowers,ad);
-        }
-        if (ad < 0) {
-            System.out.printf("Not enough money, you need %.2f leva more.",Math.abs(ad));
+        if (differenceInBudget < 0) {
+            System.out.printf("Not enough money, you need %.2f leva more.",Math.abs(differenceInBudget));
         }
 
     }
