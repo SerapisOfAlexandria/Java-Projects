@@ -8,7 +8,7 @@ public class EvenPowersOf2 {
 
         int number = Integer.parseInt(input.nextLine());
 
-        for(int i = 0; i <= number; i++) {
+        for (int i = 0; i <= number; i++) {
             if (i % 2 == 0) {
                 System.out.println((int) Math.pow(2, i));
             }
