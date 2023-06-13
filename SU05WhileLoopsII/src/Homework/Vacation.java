@@ -8,36 +8,37 @@ public class Vacation {
 
         double neededMoney = Double.parseDouble(input.nextLine());
         double availableMoney = Double.parseDouble(input.nextLine());
-        int fiveConsecutiveDaysSpending = 0;
-        int totalDays = 0;
+        int consecutiveDaysSpending = 0;
+        int days = 0;
 
-        while (availableMoney < neededMoney) {
-            if (fiveConsecutiveDaysSpending == 5) {
-                System.out.printf("You can't save the money.\n");
-                System.out.println(totalDays);
-                break;
-            }
-
+        while (consecutiveDaysSpending != 5) {
             String operation = input.nextLine();
-            double amount = Double.parseDouble(input.nextLine());
+            Double sum = Double.parseDouble(input.nextLine());
 
-            if (operation.equals("save")) {
-                fiveConsecutiveDaysSpending = 0;
-                availableMoney += amount;
-                totalDays ++;
-            } else if (operation.equals("spend")) {
-                fiveConsecutiveDaysSpending++;
-                totalDays ++;
-                if (availableMoney - amount <= 0) {
-                    availableMoney = 0;
-                } else {
-                    availableMoney -= amount;
-                }
+            switch (operation) {
+                case "save":
+                    availableMoney += sum;
+                    consecutiveDaysSpending = 0;
+                    break;
+                case "spend":
+                    availableMoney -= sum;
+                    if (availableMoney <= 0) {
+                        availableMoney = 0;
+                    }
+                    consecutiveDaysSpending++;
+                    break;
             }
 
-        }
-        if(availableMoney >= neededMoney) {
-            System.out.printf("You saved the money for %d days.", totalDays);
+            days++;
+
+            if (consecutiveDaysSpending == 5) {
+                System.out.printf("You can't saved the money.\n");
+                System.out.printf("%d", days);
+                break;
+            } else if (availableMoney >= neededMoney) {
+                System.out.printf("You save the money for %d days", days);
+            }
+
         }
     }
 }
