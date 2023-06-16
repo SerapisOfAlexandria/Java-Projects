@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17321c0a-b1b9-4f6d-a564-8750662bee06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SU06NestedLoopsII/src/Homework/MovieTickets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basketball Equipment/Basketball Equipment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exchange Rate Calculator/Exchange Rate Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fish Tank/Fish Tank.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food Delivery/Food Delivery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mandatory Time Spent On Reading Calculator/Mandatory Time Spent On Reading Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paint Job Calculator/Paint Job Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Radians To Degrees/Radians To Degrees.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU02ConditionalStatements/SU02ConditionalStatements.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/SU03CondStatementsII.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/Cinema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/FishingBoat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/Hotelroom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/Journey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/NewHouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/OnTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/SkiTrip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Homework/SummerOutfit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/out/production/SU03CondStatementsII/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/Cinema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/FishingBoat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/Hotelroom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/Journey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/NewHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/OnTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/SkiTrip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Homework/SummerOutfit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03CondStatementsII/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU03JavaCondStatements/SU03JavaCondStatements.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU04ForLoops/SU04ForLoops.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU04ForLoopsII/SU04ForLoopsII.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU05WhileLoops/SU05WhileLoops.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU05WhileLoops2/SU05WhileLoops2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU05WhileLoopsII/SU05WhileLoopsII.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU06NestedLoops/SU06NestedLoops.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SU06NestedLoopsII/SU06NestedLoopsII.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUProgrammingBasicsOnlinePreExam/SUProgrammingBasicsOnlinePreExam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Supply Calculator/School Supply Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Watermelon/Watermelon.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2RFonKjBSAey4UCh825traSlqt3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Serapis/Desktop/Java/SU06NestedLoopsII"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17321c0a-b1b9-4f6d-a564-8750662bee06" name="Changes" comment="" />
+      <created>1686855355900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686855355900</updated>
+    </task>
+    <servers />
+  </component>
+</project>

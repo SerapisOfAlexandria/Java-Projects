@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basketball Equipment/Basketball Equipment.iml" filepath="$PROJECT_DIR$/Basketball Equipment/Basketball Equipment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exchange Rate Calculator/Exchange Rate Calculator.iml" filepath="$PROJECT_DIR$/Exchange Rate Calculator/Exchange Rate Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fish Tank/Fish Tank.iml" filepath="$PROJECT_DIR$/Fish Tank/Fish Tank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Food Delivery/Food Delivery.iml" filepath="$PROJECT_DIR$/Food Delivery/Food Delivery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loan Calculator/Loan Calculator.iml" filepath="$PROJECT_DIR$/Loan Calculator/Loan Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mandatory Time Spent On Reading Calculator/Mandatory Time Spent On Reading Calculator.iml" filepath="$PROJECT_DIR$/Mandatory Time Spent On Reading Calculator/Mandatory Time Spent On Reading Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Paint Job Calculator/Paint Job Calculator.iml" filepath="$PROJECT_DIR$/Paint Job Calculator/Paint Job Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Radians To Degrees/Radians To Degrees.iml" filepath="$PROJECT_DIR$/Radians To Degrees/Radians To Degrees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU02CondStatementsII/SU02CondStatementsII.iml" filepath="$PROJECT_DIR$/SU02CondStatementsII/SU02CondStatementsII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU02ConditionalStatements/SU02ConditionalStatements.iml" filepath="$PROJECT_DIR$/SU02ConditionalStatements/SU02ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU03JavaCondStatements/SU03JavaCondStatements.iml" filepath="$PROJECT_DIR$/SU03JavaCondStatements/SU03JavaCondStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU04ForLoops/SU04ForLoops.iml" filepath="$PROJECT_DIR$/SU04ForLoops/SU04ForLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU04ForLoopsII/SU04ForLoopsII.iml" filepath="$PROJECT_DIR$/SU04ForLoopsII/SU04ForLoopsII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU05WhileLoops/SU05WhileLoops.iml" filepath="$PROJECT_DIR$/SU05WhileLoops/SU05WhileLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU05WhileLoops2/SU05WhileLoops2.iml" filepath="$PROJECT_DIR$/SU05WhileLoops2/SU05WhileLoops2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU05WhileLoopsII/SU05WhileLoopsII.iml" filepath="$PROJECT_DIR$/SU05WhileLoopsII/SU05WhileLoopsII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU06NestedLoops/SU06NestedLoops.iml" filepath="$PROJECT_DIR$/SU06NestedLoops/SU06NestedLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SU06NestedLoopsII/SU06NestedLoopsII.iml" filepath="$PROJECT_DIR$/SU06NestedLoopsII/SU06NestedLoopsII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SUProgrammingBasicsOnlinePreExam/SUProgrammingBasicsOnlinePreExam.iml" filepath="$PROJECT_DIR$/SUProgrammingBasicsOnlinePreExam/SUProgrammingBasicsOnlinePreExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School Supply Calculator/School Supply Calculator.iml" filepath="$PROJECT_DIR$/School Supply Calculator/School Supply Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Watermelon/Watermelon.iml" filepath="$PROJECT_DIR$/Watermelon/Watermelon.iml" />
+    </modules>
+  </component>
+</project>
