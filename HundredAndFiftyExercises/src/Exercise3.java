@@ -5,7 +5,6 @@ public class Exercise3 {
         Scanner input = new Scanner(System.in);
         int x = Integer.parseInt(input.nextLine());
         int y = Integer.parseInt(input.nextLine());
-
         System.out.println(x / y);
     }
 }
